@@ -1,0 +1,62 @@
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+#raceResults {
+  margin-top: 20px;
+}
+
+#scoreboard {
+  list-style: square;
+  padding: 0;
+}
+
+#scoreboard li {
+  margin-bottom: 10px;
+}
+
+#raceTrack {
+  position: relative;
+  width: 80%;
+  margin: 50px auto;
+  background-color: #73d56c;
+  padding: 10px;
+  height: 115px;
+}
+
+@keyframes horseRace {
+  to {
+    left: 100%;
+  }
+}
+
+.horse {
+  position: absolute;
+  left: 0;
+  height: 30px;
+  width: 70px;
+  background-color: brown;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+}
+
+#horse1 {
+  left: 0;
+  top: 10px;
+}
+
+#horse2 {
+  left: 0;
+  top: 60px;
+}
+
+#horse3 {
+  left: 0;
+  top: 110px;
+}
